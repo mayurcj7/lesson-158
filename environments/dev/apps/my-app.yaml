@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/mayurcj7/lesson-158.git
     targetRevision: HEAD
-    path: environments/staging/my-app
+    path: environments/dev/my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
