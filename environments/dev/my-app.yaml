@@ -1,0 +1,9 @@
+---
+kind: Kustomization
+namespace: foo
+name: my-app
+images:
+  - name: mayurcj7/nginx
+    newTag: v0.1.0
+resources:
+  - ../../../my-app-base
