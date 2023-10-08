@@ -1,0 +1,7 @@
+---
+namespace: foo
+images:
+  - name: mayurcj7/nginx
+    newTag: v0.1.1
+resources:
+  - ../my-app-base
